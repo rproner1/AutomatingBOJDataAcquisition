@@ -4,7 +4,7 @@ The `scrapeTheBOJ` module contains the `scrapeTheBOJ()` function. The function r
 
   fromYear: str. The lower limit of the date range (inclusive). Default="2016".
   toYear: str. The upper limit of the date range (inclusive). Default="2021".
-  noHeader: bool. Whether or not to omit the header. Default=True. If noHeader=False, a simple header will be created. 
+  noHeader: bool. Whether or not to omit the header. Default=`True`. If `noHeader=False`, a simple header will be created. 
   
 The function does not return a value. Rather, it downloads a csv directly.
 
